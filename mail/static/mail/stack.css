@@ -1,0 +1,52 @@
+
+body{
+
+	font-family: sans-serif;
+
+}
+textarea {
+    min-height: 400px;
+}
+#main-container{
+	margin-left: 20px;
+}
+.email-head{
+	padding-left:100px; 
+	height: 50px;
+}
+.seperator{
+	background: #ddd;
+	height: 50px;
+}
+#inbox, #sent, #archived {
+	width: 10vw;
+	height: 30px;
+	margin: 10px;
+	border-radius: 153px 153px 153px 153px;
+	-moz-border-radius: 153px 153px 153px 153px;
+	-webkit-border-radius: 153px 153px 153px 153px;
+	border: 0px solid #000000;
+
+}
+.main-body{
+	display: flex;
+}
+.main-buttons{
+	display: flex;
+	flex-direction: column;
+	width: 300px;
+}
+.button-set{
+	display: flex;
+	justify-content: space-around;
+}
+#compose{
+	border-radius: 153px 153px 153px 153px;
+	-moz-border-radius: 153px 153px 153px 153px;
+	-webkit-border-radius: 153px 153px 153px 153px;
+	border: 0px solid #000000
+}
+.form-group{
+	margin-bottom: 10px;
+
+}
